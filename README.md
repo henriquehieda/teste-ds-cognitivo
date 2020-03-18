@@ -51,6 +51,7 @@ A validação do modelo foi feito via validação cruzada, utilizando 6 Folds. (
 Ou seja, o modelo é treinado e testado 6 vezes em conjuntos de dados diferentes. 
 Essa técnica garante uma maior confiança nos resultados do meu modelo em amostras não vistas ainda (out-of-sample),
 pois o conjunto usado para a validação é sempre diferente do conjunto de treino.
+
 É interessante ver a variância da minha função de erro em cada Fold. Baixos valores de variância indicam que 
 meu modelo está sendo capaz de obter resultados consistentes em amostras diferentes.
 Ao mesmo tempo, variância altas podem ser sinais de que o modelo está sobreajustado ao conjunto de dados usado no treino.
